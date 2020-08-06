@@ -35,7 +35,7 @@ public class PnrResource {
 		List<Passenger> passengers=new ArrayList<Passenger>();
 		passengers.add(new Passenger("majrul",Gender.MALE,Status.RAC));
 		passengers.add(new Passenger("dinesh",Gender.MALE,Status.RAC));
-		passengers.add(new Passenger("soumya",Gender.FEMALE,Status.CONFIRMED));
+		passengers.add(new Passenger("somya",Gender.FEMALE,Status.CONFIRMED));
 		pnr.setPassengers(passengers);
 		return pnr;
 	}
